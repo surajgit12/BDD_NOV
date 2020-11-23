@@ -1,0 +1,104 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Free CRM Create a new deal scenario",
+        "description": "",
+        "id": "deal-data-creation;free-crm-create-a-new-deal-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 402800,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user is already on login page",
+            "match": {
+              "location": "LoginStepDefination.user_already_loginpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7700,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "title of login page is Free Crm",
+            "match": {
+              "location": "LoginStepDefination.title_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user enter the username and password",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "surajtest",
+                  "karn@123"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6101,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefination.user_click_loginbutton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "user is moves to new deals page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "user enters deal details",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "test deal",
+                  "1000",
+                  "50",
+                  "10"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Deal Data creation",
+    "description": "",
+    "id": "deal-data-creation",
+    "keyword": "Feature",
+    "uri": "classpath:Features/deals.feature",
+    "tags": []
+  }
+]

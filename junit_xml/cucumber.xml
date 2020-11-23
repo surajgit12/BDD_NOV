@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.004249">
+<testcase classname="Deal Data creation" name="Free CRM Create a new deal scenario" time="0.004249">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user is already on login page.........................................skipped
+When title of login page is Free Crm........................................skipped
+Then user enter the username and password...................................undefined
+Then user clicks on login button............................................skipped
+Then user is moves to new deals page........................................undefined
+Then user enters deal details...............................................undefined
+]]></failure>
+</testcase>
+</testsuite>
